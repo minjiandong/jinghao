@@ -1,0 +1,93 @@
+﻿body {
+    background-color:#4b679a;
+}
+li{
+    list-style-type:none;
+}
+.head{
+    height:100px; position:relative; width:100%;
+}
+.logo{
+    width:386px; 
+    height:64px;
+    position:absolute;
+    left:30px;
+    top:10px;
+}
+/*用户菜单样式*/
+.user_menu{
+    position:absolute;
+    right:10px;
+    top:30px;
+    width:200px;
+}
+ 
+
+.user_menu .u_menu{
+    position:absolute;
+    left:30px; 
+}
+.user_menu ul{
+    height:30px;
+    line-height:30px;
+ 
+}
+
+
+/*地市菜单样式*/
+.city_select{
+   position:absolute;
+   right:220px;
+   top:30px;
+   width:150px; 
+}
+ 
+ 
+.city_select ul{
+    height:30px;
+    line-height:30px;
+ 
+}
+
+
+#city {
+    display:none;
+    width:150px; 
+    background-color: #000000;
+            filter: alpha(opacity=50);
+            -moz-opacity: 0.5;
+            opacity: 0.5;
+            behavior: url(/ie-css3.htc);
+}
+#city ul{
+    margin-top:5px;
+}
+#city ul li{
+    height:25px;
+    line-height:25px;
+    font-weight:900;
+}
+#city ul li a{
+    color:#ffffff;
+}
+#user{
+    display:none;
+    width:150px;
+     
+    background-color: #000000;
+            filter: alpha(opacity=50);
+            -moz-opacity: 0.5;
+            opacity: 0.5;
+            behavior: url(/ie-css3.htc);
+}
+#user ul{
+    margin-top:5px;
+}
+#user ul li{
+    height:25px;
+    line-height:25px;
+    font-weight:900;
+}
+#user ul li a{
+    color:#ffffff;
+}

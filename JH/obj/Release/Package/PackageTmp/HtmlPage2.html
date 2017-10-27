@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="/Scripts/jquery-1.10.2.js"></script>
+    <style type="text/css">
+        .wrap {
+            padding: 10px;
+            border: 1px #ccc solid;
+            width: 500px;
+            margin: 20px auto;
+        }
+
+        .roll-wrap {
+            height: 130px;
+            overflow: hidden;
+        }
+    </style>
+    <script type="text/javascript">
+        function scrollTxt() {
+            var controls = {},
+                values = {},
+                t1 = 200, /*播放动画的时间*/
+                t2 = 2000, /*播放时间间隔*/
+                si;
+            controls.rollWrap = $("#roll-wrap");
+            controls.rollWrapUl = controls.rollWrap.children();
+            controls.rollWrapLIs = controls.rollWrapUl.children();
+            values.liNums = controls.rollWrapLIs.length;
+            values.liHeight = controls.rollWrapLIs.eq(0).height();
+            values.ulHeight = controls.rollWrap.height();
+            this.init = function () {
+                autoPlay();
+                pausePlay();
+            }
+            /*滚动*/
+            function play() {
+                controls.rollWrapUl.animate({ "margin-top": "-" + values.liHeight }, t1, function () {
+                    $(this).css("margin-top", "0").children().eq(0).appendTo($(this));
+                });
+            }
+            /*自动滚动*/
+            function autoPlay() {
+                /*如果所有li标签的高度和大于.roll-wrap的高度则滚动*/
+                if (values.liHeight * values.liNums > values.ulHeight) {
+                    si = setInterval(function () {
+                        play();
+                    }, t2);
+                }
+            }
+            /*鼠标经过ul时暂停滚动*/
+            function pausePlay() {
+                controls.rollWrapUl.on({
+                    "mouseenter": function () {
+                        clearInterval(si);
+                    },
+                    "mouseleave": function () {
+                        autoPlay();
+                    }
+                });
+            }
+        }
+        new scrollTxt().init();
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="roll-wrap" id="roll-wrap">
+            <ul>
+                <li>JS文本向上滚动1</li>
+                <li>JS文本向上滚动2</li>
+                <li>JS文本向上滚动3</li>
+                <li>JS文本向上滚动4</li>
+                <li>JS文本向上滚动5</li>
+                <li>JS文本向上滚动6</li>
+                <li>JS文本向上滚动7</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

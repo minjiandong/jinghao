@@ -1,0 +1,34 @@
+﻿.login_box{ position:absolute;   height:300px;  z-index: 5; right:10px; top:20%; background-color:#fff; width:280px; padding:10px 20px;}
+.login_box  h1 { height: 30px;line-height: 30px; color: #666; font-family: "微软雅黑"; font-size: 20px;}
+.login_form{ margin-top:20px;}
+.login_form .item { position: relative;margin-bottom: 24px; z-index: 1;}
+.login_form .item_fore1 { z-index: 6;}
+.login_form .item_fore1, .login_form .item_fore2,.login_form.item_fore3 { border: 1px solid #BDBDBD; height: 36px; width: 278px;}
+
+
+
+
+.login_form .item .login_label { position: absolute; z-index: 3; top:0; left: 0; width: 36px; height: 36px;  background: url(../images/pwd-icons-new.png) no-repeat scroll 0% 0% transparent; }
+.login_form .item .pwd_label {
+background-position: -48px -1px;
+}
+.login_form .item .yzm_label {
+ background-position: -88px 0px;
+}
+.login_form .item_fore3{ position:relative;} 
+.login_form .item_fore3 span{ position:absolute; right:5px; top:0; display:block; padding:5px; width:80px; text-align:center; border-left:solid 1px #ddd; color:#666;}
+.login_form .item .name_label {background-position: 0px 0px;}
+.login_form .item_fore .name_label  {background-position: 0px -48px;}
+
+.login_form .item_error .name_label  {background-position: 0px -98px;}
+
+.login_form .item_fore .pwd_label  {background-position: -48px -49px;}
+
+.login_form .item_error .pwd_label  {background-position: -48px -98px;}
+
+.login_form .item_fore .yzm_label  {background-position: -88px -49px;}
+
+.login_form .item_error .yzm_label  {background-position: -88px -97px;}
+
+.login_form .itxt1 {line-height: 16px; height: 16px; border: 0px none; padding: 9px 0px 9px 40px; width:130px; float: none; overflow: hidden;font-size:12px; color:#666;}
+.login_form .itxt {line-height: 16px; height: 16px; border: 0px none; padding: 9px 0px 9px 40px; width: 238px; color:#666; float: none; overflow: hidden;font-size:12px;}

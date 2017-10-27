@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <!--JJUI调用样式开始部分-->
+    <link href="/JJUI/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="/JJUI/css/thin-admin.css" rel="stylesheet" media="screen">
+    <link href="/JJUI/css/font-awesome.css" rel="stylesheet" media="screen">
+    <link href="/JJUI/style/style.css" rel="stylesheet">
+    <link href="/JJUI/style/dashboard.css" rel="stylesheet">
+    <link href="/JJUI/assets/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen" />
+    <!--JJUI调用样式代码结束-->
+</head>
+<body>
+    <div class="container">
+        <div class="top-navbar header b-b">
+            <a data-original-title="Toggle navigation" class="toggle-side-nav pull-left" href="#"><i class="icon-reorder"></i> </a>
+            <div class="brand pull-left"> <a href="index.html">成都联宇个性化运营系统</a></div>
+            <ul class="nav navbar-nav navbar-right  hidden-xs">
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"> <i class="icon-map-marker"> 成都市</i> <!--<span class="badge">0</span>--> </a>
+                    <ul class="dropdown-menu extended notification">
+                        <li class="title">
+                            <p>请在这里选择跳转的地市</p>
+                        </li>
+                        <li> <a href="#">  <span class="message">绵阳市</span>  </a> </li>
+                        <li> <a href="#">  <span class="message">达州市</span>  </a> </li>
+                        <li> <a href="#">  <span class="message">达州市</span>  </a> </li>
+                        <li> <a href="#">  <span class="message">达州市</span>  </a> </li>
+                        <li> <a href="#">  <span class="message">达州市</span>  </a> </li>
+
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"> <i class="icon-envelope"></i> <span class="badge">0</span> </a>
+                    <ul class="dropdown-menu extended notification">
+                        <li class="title">
+                            <p>You have 3 new messages</p>
+                        </li>
+                        <li> <a href="#"> <span class="photo"> <img src="images/profile.png" width="34" height="34"></span> <span class="subject"> <span class="from">John Doe</span> <span class="time">Just Now</span> </span> <span class="text"> Consetetur sadipscing elitr...</span> </a> </li>
+                        <li> <a href="#"> <span class="photo"><img src="images/profile.png" width="34" height="34"></span> <span class="subject"> <span class="from">John Doe</span> <span class="time">35 mins</span> </span> <span class="text"> Sed diam nonumy... </span> </a> </li>
+                        <li> <a href="#"> <span class="photo"><img src="images/profile.png" width="34" height="34"></span> <span class="subject"> <span class="from">John Doe</span> <span class="time">5 hours</span> </span> <span class="text"> No sea takimata sanctus... </span> </a> </li>
+                        <li class="footer"> <a href="#">View all messages</a> </li>
+                    </ul>
+                </li>
+                <li class="dropdown user  hidden-xs">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"> <i class="icon-male"></i> <span class="username">admin</span> <i class="icon-caret-down small"></i> </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="user_profile.html"><i class="icon-user"></i> 个人信息</a></li>
+                        <li><a href="fullCalendar.html"><i class="icon-calendar"></i> 控制台管理</a></li>
+                        <li><a href="#"><i class="icon-tasks"></i> 修改密码</a></li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="icon-key"></i> 退出系统</a></li>
+                    </ul>
+                </li>
+            </ul>
+           
+        </div>
+    </div>
+    
+    <div class="wrapper">
+        
+        <div class="left-nav">
+            
+            <div id="side-nav">
+                <ul id="nav">
+                    <li class="current"> <a href="index.html">  Dashboard </a> </li>
+                    <li>
+                        <a href="#"> <i class="icon-desktop"></i> UI Features  <i class="arrow icon-angle-left"></i></a>
+                        <ul class="sub-menu">
+                            <li> <a href="general.html"> <i class="icon-angle-right"></i> General </a> </li>
+                            <li> <a href="buttons.html"> <i class="icon-angle-right"></i> Buttons </a> </li>
+                            <li> <a href="tabs.html"> <i class="icon-angle-right"></i> Tabs</a> </li>
+                            <li> <a href="accordions.html"> <i class="icon-angle-right"></i> Accordions </a> </li>
+                            <li> <a href="nestable.html"> <i class="icon-angle-right"></i> Nestable List </a> </li>
+                            <li> <a href="grid.html"> <i class="icon-angle-right"></i> Grid </a> </li>
+                            <li> <a href="dialogs.html"> <i class="icon-angle-right"></i> Dialogs </a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="icon-edit"></i> Forms  <i class="arrow icon-angle-left"></i></a>
+                        <ul class="sub-menu">
+                            <li> <a href="form_elements.html"> <i class="icon-angle-right"></i> Form Elements </a> </li>
+                            <li> <a href="form_validation.html"> <i class="icon-angle-right"></i> Form Validation</a> </li>
+                            <li> <a href="form_masks.html"> <i class="icon-angle-right"></i> Form Masks </a> </li>
+                            <li> <a href="wizard.html"> <i class="icon-angle-right"></i> Form Wizard </a> </li>
+                            <li> <a href="multipleFile_upload.html"> <i class="icon-angle-right"></i> Multiple File Upload </a> </li>
+                            <li> <a href="dropzone_upload.html"> <i class="icon-angle-right"></i> Dropzone File Upload </a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="icon-table"></i> Tables  <i class="arrow icon-angle-left"></i></a>
+                        <ul class="sub-menu">
+                            <li> <a href="static_table.html"> <i class="icon-angle-right"></i> Static </a> </li>
+                            <li> <a href="dynamic_table.html"> <i class="icon-angle-right"></i> Dynamic </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="chart.html"> <i class="icon-bar-chart"></i> Charts &amp; Statistics </a> </li>
+                    <li>
+                        <a href="#"> <i class="icon-flag"></i> Fontawesome  <i class="arrow icon-angle-left"></i></a>
+                        <ul class="sub-menu">
+                            <li> <a href="icons-new.html"> <i class="icon-angle-right"></i> New-Icons </a> </li>
+                            <li> <a href="icons.html"> <i class="icon-angle-right"></i> Icons </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="gallery.html"> <i class="icon-picture"></i> Gallery </a> </li>
+                    <li> <a href="timeline.html"> <i class="icon-time"></i> Timeline </a> </li>
+                    <li>
+                        <a href="#"> <i class="icon-folder-open-alt"></i> Pages  <i class="arrow icon-angle-left"></i></a>
+                        <ul class="sub-menu">
+                            <li> <a href="login.html"> <i class="icon-angle-right"></i> Login </a> </li>
+                            <li> <a href="user_profile.html"> <i class="icon-angle-right"></i> User Profile </a> </li>
+                            <li> <a href="mailbox.html"> <i class="icon-angle-right"></i> Mailbox </a> </li>
+                            <li> <a href="fullCalendar.html"> <i class="icon-angle-right"></i> Calendar </a> </li>
+                            <li> <a href="404-page.html"> <i class="icon-angle-right"></i> 404-page </a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="page-content" style="position:relative;">
+            <div class="left_nav" style="position:absolute;"><i class="icon-list"></i></div>
+            <div class="content container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="page-title">首页 <small>欢迎回到首页</small></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="widget">
+                            <div class="widget-header">
+                                <i class="icon-bookmark"></i>
+                                <h3>Important Shortcuts</h3>
+                            </div>
+                            <!-- /widget-header -->
+                            <div class="widget-content">
+                                
+                                <!-- /shortcuts -->
+                            </div>
+                            <!-- /widget-content -->
+                        </div>
+                    </div>
+                     
+
+                    <div class="col-lg-6">
+                        <div class="widget">
+                            <div class="widget-header">
+                                <i class="icon-bookmark"></i>
+                                <h3>Important Shortcuts</h3>
+                            </div>
+                            <!-- /widget-header -->
+                            <div class="widget-content">
+
+                                <!-- /shortcuts -->
+                            </div>
+                            <!-- /widget-content -->
+                        </div>
+                    </div>
+                </div>
+                 
+            </div>
+        </div>
+    </div>
+    <div class="bottom-nav footer"> 2016 &copy; 成都联宇创新科技股份有限公司 </div>
+ 
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/smooth-sliding-menu.js"></script>
+    
+    
+    <!--switcher html start-->
+    <div class="demo_changer active" style="right: 0px;">
+        <div class="demo-icon"></div>
+        <div class="form_holder">
+            <div class="predefined_styles">
+                <a class="styleswitch" rel="a" href=""><img alt="" src="images/a.jpg"></a>
+                <a class="styleswitch" rel="b" href=""><img alt="" src="images/b.jpg"></a>
+                <a class="styleswitch" rel="c" href=""><img alt="" src="images/c.jpg"></a>
+                <a class="styleswitch" rel="d" href=""><img alt="" src="images/d.jpg"></a>
+                <a class="styleswitch" rel="e" href=""><img alt="" src="images/e.jpg"></a>
+                <a class="styleswitch" rel="f" href=""><img alt="" src="images/f.jpg"></a>
+                <a class="styleswitch" rel="g" href=""><img alt="" src="images/g.jpg"></a>
+                <a class="styleswitch" rel="h" href=""><img alt="" src="images/h.jpg"></a>
+                <a class="styleswitch" rel="i" href=""><img alt="" src="images/i.jpg"></a>
+                <a class="styleswitch" rel="j" href=""><img alt="" src="images/j.jpg"></a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--switcher html end-->
+    <script src="switcher/switcher.js"></script>
+    <script src="switcher/moderziner.custom.js"></script>
+    <link href="switcher/switcher.css" rel="stylesheet">
+    <link href="switcher/switcher-defult.css" rel="stylesheet">
+    <link rel="alternate stylesheet" type="text/css" href="switcher/a.css" title="a" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/b.css" title="b" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/c.css" title="c" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/d.css" title="d" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/e.css" title="e" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/f.css" title="f" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/g.css" title="g" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/h.css" title="h" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/i.css" title="i" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/j.css" title="j" media="all" />
+</body>
+
+</html>

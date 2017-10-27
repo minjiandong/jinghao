@@ -1,0 +1,172 @@
+/*登录*/
+.wrapper {
+    min-height: 100%;
+    position: static;
+    overflow: hidden;
+}
+
+.login-header-warp {
+    background-color: #fff;
+}
+
+.login-body {
+    height: 100%;
+    min-height: 640px;
+}
+
+.login-warp {
+    height: 100%;
+    background-color: #33a1e6;
+    position: relative;
+}
+
+.login-header {
+    height: 100px;
+    line-height: 100px;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+    .login-header .login-logo {
+        vertical-align: middle;
+    }
+
+.login-title {
+    font-size: 24px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.login_x_title {
+    padding-top: 43px;
+    float: right;
+}
+
+.login-center {
+    background-color: #33a1e6;
+    height: 460px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -230px;
+}
+
+.login-main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.login-img {
+    /*width: 552px;*/
+    /*height: 460px;*/
+}
+
+.login-box-title {
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.login-main-right {
+    margin-top: 34px;
+    float: right;
+    vertical-align: middle;
+    width: 425px;
+    height: 420px;
+    background-color: #ffffff;
+    -moz-border-radius: 5px; /* Gecko browsers */
+    -webkit-border-radius: 5px; /* Webkit browsers */
+    -ms-border-radius: 5px; /* Gecko browsers */
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.login-box-form {
+    padding-left: 41px;
+}
+
+    .login-box-form input {
+        display: block;
+        font-family: "微软雅黑";
+    }
+
+        .login-box-form input[id="username"], input[id="password"] {
+            border: 1px solid #c7c7c7;
+            width: 340px;
+            height: 44px;
+            line-height: 44px;
+            margin-bottom: 36px;
+            font-size: 16px;
+            padding-left: 5px;
+            color: #8a8a8a;
+            -moz-border-radius: 5px; /* Gecko browsers */
+            -webkit-border-radius: 5px; /* Webkit browsers */
+            -ms-border-radius: 5px; /* Gecko browsers */
+            -o-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+         .login-box-form input[id="codekey"]{
+            border: 1px solid #c7c7c7;
+            width: 220px;
+            height: 44px;
+            line-height: 44px;
+            margin-bottom: 36px;
+            font-size: 16px;
+            padding-left: 5px;
+            color: #8a8a8a;
+            -moz-border-radius: 5px; /* Gecko browsers */
+            -webkit-border-radius: 5px; /* Webkit browsers */
+            -ms-border-radius: 5px; /* Gecko browsers */
+            -o-border-radius: 5px;
+            border-radius: 5px;
+            margin-right:5px;
+        }
+
+        .login-box-form input[type="button"] {
+            background-color: #f8a200;
+            width: 340px;
+            height: 44px;
+            line-height: 44px;
+            margin-bottom: 36px;
+            font-size: 20px;
+            padding-left: 5px;
+            color: #ffffff;
+            cursor: pointer;
+            -moz-border-radius: 5px; /* Gecko browsers */
+            -webkit-border-radius: 5px; /* Webkit browsers */
+            -ms-border-radius: 5px; /* Gecko browsers */
+            -o-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+.login-footer {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #666666;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.input-group-addon {
+    width:140px;
+    height:44px;
+    
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center; /*background-color:#eee;*/
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
